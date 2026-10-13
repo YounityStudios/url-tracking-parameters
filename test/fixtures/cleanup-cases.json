@@ -1,0 +1,32 @@
+[
+  {
+    "description": "Global campaign and social identifiers",
+    "input": "https://example.com/article?id=42&utm_source=newsletter&fbclid=secret&share_id=abc",
+    "expected": "https://example.com/article?id=42"
+  },
+  {
+    "description": "Repeated useful values and fragments are preserved",
+    "input": "https://example.com/search?tag=one&tag=two&utm_medium=social#results",
+    "expected": "https://example.com/search?tag=one&tag=two#results"
+  },
+  {
+    "description": "Instagram sharing identifier",
+    "input": "https://www.instagram.com/reel/ABC123/?stkn=token&igsh=example",
+    "expected": "https://www.instagram.com/reel/ABC123/"
+  },
+  {
+    "description": "YouTube short sharing identifier",
+    "input": "https://youtube.com/shorts/LNCQvHZ71Kg?is=tracking&feature=share",
+    "expected": "https://youtube.com/shorts/LNCQvHZ71Kg"
+  },
+  {
+    "description": "Host-scoped regional identifier",
+    "input": "https://www.bilibili.com/video/BV123?share_source=copy&vd_source=abc&p=1",
+    "expected": "https://www.bilibili.com/video/BV123?p=1"
+  },
+  {
+    "description": "Functional values remain when not configured as tracking",
+    "input": "https://example.com/continue?next=%2Fdashboard&lang=en",
+    "expected": "https://example.com/continue?next=%2Fdashboard&lang=en"
+  }
+]

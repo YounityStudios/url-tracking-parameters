@@ -1,0 +1,13 @@
+{
+  "name": "url-tracking-parameters",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Community-maintained URL tracking parameter rules",
+  "type": "module",
+  "scripts": {
+    "validate": "node tool/validate_rules.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

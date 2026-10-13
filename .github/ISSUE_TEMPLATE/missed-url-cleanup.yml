@@ -1,0 +1,28 @@
+name: Missed URL cleanup
+description: Report a shared URL that still includes removable tracking or sharing parameters.
+title: 'Missed cleanup: '
+labels:
+  - tracking-rules
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Paste only URLs that are safe to disclose publicly. Do not include private links, account identifiers, access tokens, or personal data.
+
+  - type: textarea
+    id: original_url
+    attributes:
+      label: Original URL
+      description: Paste the URL exactly as it was shared.
+      placeholder: 'https://www.example.com/article?tracking_parameter=value'
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected_clean_url
+    attributes:
+      label: Expected clean URL
+      description: Paste the URL as it should look after safe cleanup.
+      placeholder: 'https://www.example.com/article'
+    validations:
+      required: true

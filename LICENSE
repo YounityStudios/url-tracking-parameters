@@ -1,0 +1,15 @@
+# License
+
+## Rule data and cleanup fixtures
+
+All JSON rule data and test fixtures in `rules/` and `test/fixtures/` are
+dedicated to the public domain under CC0-1.0.
+
+Full legal code: https://creativecommons.org/publicdomain/zero/1.0/legalcode
+
+## Tooling, documentation, and workflow sources
+
+All other repository files are licensed under Apache-2.0, unless a file states
+a different SPDX identifier.
+
+Full legal code: https://www.apache.org/licenses/LICENSE-2.0

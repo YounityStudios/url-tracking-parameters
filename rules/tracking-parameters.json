@@ -1,0 +1,974 @@
+{
+  "schemaVersion": 1,
+  "rulesVersion": 1,
+  "globalParameters": [
+    "__hsfp",
+    "__hssc",
+    "__hstc",
+    "_bhlid",
+    "_branch_match_id",
+    "_branch_referrer",
+    "_fbc",
+    "_fbp",
+    "_ga",
+    "_gac",
+    "_gid",
+    "_gl",
+    "_hsenc",
+    "_hsmi",
+    "_kx",
+    "_ope",
+    "_openstat",
+    "_pk_cvar",
+    "_pk_id",
+    "_pk_ref",
+    "_pk_ses",
+    "_r",
+    "_scid",
+    "_t",
+    "_tt_enable_cookie",
+    "ad_id",
+    "adgroupid",
+    "adid",
+    "af_ad",
+    "af_adset",
+    "af_click_lookback",
+    "af_force_deeplink",
+    "af_xp",
+    "aff_id",
+    "affid",
+    "affiliate",
+    "affiliate_id",
+    "analytics_context",
+    "analytics_trace_id",
+    "ascsubtag",
+    "at_campaign",
+    "at_campaign_type",
+    "at_creation",
+    "at_emailtype",
+    "at_link",
+    "at_link_id",
+    "at_link_origin",
+    "at_link_type",
+    "at_medium",
+    "at_ptr_name",
+    "at_recipient_id",
+    "at_recipient_list",
+    "at_send_date",
+    "awc",
+    "btag",
+    "campaign",
+    "campaignid",
+    "checksum",
+    "cio_delivery_id",
+    "cio_id",
+    "cio_link_id",
+    "cio_message_id",
+    "cjdata",
+    "cjevent",
+    "clckid",
+    "click_id",
+    "clickid",
+    "cm_cat",
+    "cm_ite",
+    "cm_lm",
+    "cm_mmc",
+    "cm_pla",
+    "cm_ven",
+    "cmpid",
+    "context",
+    "creative",
+    "creativeasin",
+    "dclid",
+    "elq",
+    "elqaid",
+    "elqak",
+    "elqat",
+    "elqcampaignid",
+    "elqtrackid",
+    "epik",
+    "erid",
+    "fbclid",
+    "feature",
+    "fref",
+    "gad_campaignid",
+    "gad_source",
+    "gbraid",
+    "gcl_au",
+    "gcl_aw",
+    "gcl_dc",
+    "gcl_gb",
+    "gclid",
+    "gclsrc",
+    "hs_amp",
+    "hsctatracking",
+    "hslang",
+    "iclid",
+    "igsh",
+    "igshid",
+    "igsi",
+    "irclickid",
+    "irgwc",
+    "is_from_webapp",
+    "is_retargeting",
+    "iterableemailcampaignid",
+    "iterablemessageid",
+    "iterabletemplateid",
+    "klaviyo_id",
+    "kx",
+    "li_fat_id",
+    "linkcode",
+    "matomo_campaign",
+    "matomo_kwd",
+    "mc_cid",
+    "mc_eid",
+    "mibextid",
+    "mkt_hm",
+    "mkt_tok",
+    "mkt_unsubscribe",
+    "msclkid",
+    "mt_adset",
+    "mt_campaign",
+    "mt_click_id",
+    "mt_creative",
+    "mt_medium",
+    "mt_network",
+    "mt_sub1",
+    "mt_sub2",
+    "mt_sub3",
+    "mt_sub4",
+    "mt_sub5",
+    "ncid",
+    "oly_anon_id",
+    "oly_enc_id",
+    "partner_id",
+    "pinclid",
+    "piwik_campaign",
+    "piwik_kwd",
+    "pk_campaign",
+    "pk_kwd",
+    "pubref",
+    "qclid",
+    "raneaid",
+    "ranmid",
+    "ransiteid",
+    "rb_clickid",
+    "rdid",
+    "rdt_cid",
+    "rdt_uuid",
+    "ref",
+    "ref_src",
+    "ref_url",
+    "refcode",
+    "referral",
+    "referral_code",
+    "referrer",
+    "rtkcid",
+    "s_cid",
+    "sc_click_id",
+    "sccid",
+    "scid",
+    "sec_user_id",
+    "sender_device",
+    "sender_web_id",
+    "sfnsn",
+    "sg_email",
+    "sg_message_id",
+    "sg_uid",
+    "share",
+    "share_app_id",
+    "share_app_name",
+    "share_author_id",
+    "share_id",
+    "share_iid",
+    "share_item_id",
+    "share_link_id",
+    "share_token",
+    "shared",
+    "shareid",
+    "sharetoken",
+    "sharing",
+    "si",
+    "soc_src",
+    "soc_trk",
+    "source",
+    "spm",
+    "sscid",
+    "sub_id",
+    "sub1",
+    "sub2",
+    "sub3",
+    "sub4",
+    "sub5",
+    "subid",
+    "tduid",
+    "tgclid",
+    "timestamp",
+    "tracking_id",
+    "trackingid",
+    "trk",
+    "ttclid",
+    "twclid",
+    "u_code",
+    "utm_adgroup",
+    "utm_brand",
+    "utm_campaign",
+    "utm_channel",
+    "utm_cid",
+    "utm_content",
+    "utm_creative",
+    "utm_creative_format",
+    "utm_device",
+    "utm_id",
+    "utm_keyword",
+    "utm_location",
+    "utm_mailing",
+    "utm_marketing_tactic",
+    "utm_matchtype",
+    "utm_medium",
+    "utm_name",
+    "utm_network",
+    "utm_placement",
+    "utm_pubreferrer",
+    "utm_reader",
+    "utm_referrer",
+    "utm_social",
+    "utm_social-type",
+    "utm_source",
+    "utm_source_platform",
+    "utm_swu",
+    "utm_term",
+    "utm_viz_id",
+    "vc_lpp",
+    "vero_conv",
+    "vero_id",
+    "vmcid",
+    "wbraid",
+    "wickedid",
+    "wickedplacement",
+    "wickedsource",
+    "xmt",
+    "yclid",
+    "ym_tracking_id",
+    "ysclid",
+    "zanpid"
+  ],
+  "parameterPrefixes": [
+    "ga_",
+    "hsa_",
+    "pd_rd_",
+    "utm_"
+  ],
+  "hostParameters": {
+    "20minutos.es": [
+      "utm_campaign",
+      "utm_content",
+      "utm_medium",
+      "utm_source"
+    ],
+    "amazon.co.uk": [
+      "ascsubtag",
+      "camp",
+      "creative",
+      "creativeasin",
+      "linkcode",
+      "pd_rd_i",
+      "pd_rd_r",
+      "pd_rd_w",
+      "pd_rd_wg",
+      "tag"
+    ],
+    "amazon.com": [
+      "adgrpid",
+      "ascsubtag",
+      "associatetag",
+      "camp",
+      "creative",
+      "creativeasin",
+      "linkcode",
+      "linkid",
+      "pd_rd_i",
+      "pd_rd_r",
+      "pd_rd_w",
+      "pd_rd_wg",
+      "pf_rd_i",
+      "pf_rd_m",
+      "pf_rd_p",
+      "pf_rd_r",
+      "pf_rd_s",
+      "pf_rd_t",
+      "pf_rd_w",
+      "psc",
+      "refrid",
+      "smid",
+      "tag"
+    ],
+    "amazon.de": [
+      "ascsubtag",
+      "camp",
+      "creative",
+      "creativeasin",
+      "linkcode",
+      "pd_rd_i",
+      "pd_rd_r",
+      "pd_rd_w",
+      "pd_rd_wg",
+      "tag"
+    ],
+    "amazon.es": [
+      "ascsubtag",
+      "camp",
+      "creative",
+      "creativeasin",
+      "linkcode",
+      "pd_rd_i",
+      "pd_rd_r",
+      "pd_rd_w",
+      "pd_rd_wg",
+      "tag"
+    ],
+    "amazon.fr": [
+      "ascsubtag",
+      "camp",
+      "creative",
+      "creativeasin",
+      "linkcode",
+      "pd_rd_i",
+      "pd_rd_r",
+      "pd_rd_w",
+      "pd_rd_wg",
+      "tag"
+    ],
+    "ameblo.jp": [
+      "device_id",
+      "frm",
+      "timestamp"
+    ],
+    "apple.com": [
+      "at",
+      "ct",
+      "itscg",
+      "itsct"
+    ],
+    "as.com": [
+      "ssm",
+      "utm_campaign",
+      "utm_medium",
+      "utm_source"
+    ],
+    "baidu.com": [
+      "fr",
+      "from",
+      "rsv_dl",
+      "rsv_idx",
+      "rsv_pq",
+      "rsv_t",
+      "sa",
+      "usm"
+    ],
+    "bilibili.com": [
+      "bbid",
+      "share_medium",
+      "share_plat",
+      "share_session_id",
+      "share_source",
+      "share_tag",
+      "timestamp",
+      "unique_k",
+      "vd_source"
+    ],
+    "blog.naver.com": [
+      "from",
+      "proxyreferer",
+      "trackingcode"
+    ],
+    "bsky.app": [
+      "utm_campaign",
+      "utm_medium",
+      "utm_source"
+    ],
+    "bsky.social": [
+      "utm_campaign",
+      "utm_medium",
+      "utm_source"
+    ],
+    "cafe.naver.com": [
+      "from",
+      "proxyreferer",
+      "trackingcode"
+    ],
+    "corriere.it": [
+      "refresh_ce",
+      "utm_campaign",
+      "utm_medium",
+      "utm_source"
+    ],
+    "daum.net": [
+      "from",
+      "nil_profile",
+      "nil_src"
+    ],
+    "deezer.com": [
+      "utm_campaign",
+      "utm_content",
+      "utm_medium",
+      "utm_source"
+    ],
+    "detik.com": [
+      "tag_from",
+      "utm_campaign",
+      "utm_medium",
+      "utm_source"
+    ],
+    "discord.com": [
+      "utm_campaign",
+      "utm_medium",
+      "utm_source"
+    ],
+    "discord.gg": [
+      "utm_campaign",
+      "utm_medium",
+      "utm_source"
+    ],
+    "douyin.com": [
+      "did",
+      "share_app_id",
+      "share_from",
+      "share_item_id",
+      "share_link_id",
+      "share_sign",
+      "share_to",
+      "timestamp",
+      "u_code"
+    ],
+    "dzen.ru": [
+      "_openstat",
+      "from",
+      "utm_referrer",
+      "yclid"
+    ],
+    "elpais.com": [
+      "event_log",
+      "utm_campaign",
+      "utm_medium",
+      "utm_source"
+    ],
+    "facebook.com": [
+      "__cft__",
+      "__tn__",
+      "acontext",
+      "fb_action_ids",
+      "fb_action_types",
+      "fb_ref",
+      "fb_source",
+      "fbc",
+      "fbp",
+      "notif_id",
+      "notif_t",
+      "paipv",
+      "refsrc"
+    ],
+    "folha.uol.com.br": [
+      "cmpid",
+      "utm_campaign",
+      "utm_medium",
+      "utm_source"
+    ],
+    "g1.globo.com": [
+      "utm_campaign",
+      "utm_content",
+      "utm_medium",
+      "utm_source",
+      "utm_term"
+    ],
+    "gazzetta.it": [
+      "intcmp",
+      "utm_campaign",
+      "utm_medium",
+      "utm_source"
+    ],
+    "globo.com": [
+      "utm_campaign",
+      "utm_content",
+      "utm_medium",
+      "utm_source",
+      "utm_term"
+    ],
+    "gmx.net": [
+      "mc",
+      "utm_campaign",
+      "utm_medium",
+      "utm_source"
+    ],
+    "google.com": [
+      "aqs",
+      "bih",
+      "biw",
+      "client",
+      "ei",
+      "fbs",
+      "gs_l",
+      "gs_lcp",
+      "gs_lcrp",
+      "gs_lp",
+      "ie",
+      "iflsig",
+      "oe",
+      "oq",
+      "sa",
+      "sca_esv",
+      "sclient",
+      "sourceid",
+      "sstk",
+      "uact",
+      "uds",
+      "ved"
+    ],
+    "hatena.ne.jp": [
+      "utm_campaign",
+      "utm_content",
+      "utm_medium",
+      "utm_source",
+      "utm_term"
+    ],
+    "hindustantimes.com": [
+      "utm_campaign",
+      "utm_content",
+      "utm_medium",
+      "utm_source"
+    ],
+    "iesdouyin.com": [
+      "did",
+      "share_app_id",
+      "share_from",
+      "share_item_id",
+      "share_link_id",
+      "share_sign",
+      "share_to",
+      "timestamp",
+      "u_code"
+    ],
+    "instagram.com": [
+      "ig_cache_key",
+      "ig_mid",
+      "ig_rid",
+      "igsh",
+      "igshid",
+      "igsi",
+      "stkn"
+    ],
+    "itunes.apple.com": [
+      "at",
+      "ct"
+    ],
+    "josh.in": [
+      "referrer",
+      "share_id",
+      "utm_campaign",
+      "utm_medium",
+      "utm_source"
+    ],
+    "kakao.com": [
+      "from",
+      "kakao_from",
+      "kakao_link_id"
+    ],
+    "kompas.com": [
+      "source",
+      "utm_campaign",
+      "utm_medium",
+      "utm_source"
+    ],
+    "lefigaro.fr": [
+      "figdata",
+      "utm_campaign",
+      "utm_medium",
+      "utm_source"
+    ],
+    "lemonde.fr": [
+      "m_bt",
+      "utm_campaign",
+      "utm_medium",
+      "utm_source"
+    ],
+    "libero.it": [
+      "utm_campaign",
+      "utm_medium",
+      "utm_source",
+      "wtk"
+    ],
+    "lin.ee": [
+      "utm_campaign",
+      "utm_content",
+      "utm_medium",
+      "utm_source",
+      "utm_term"
+    ],
+    "line.me": [
+      "utm_campaign",
+      "utm_content",
+      "utm_medium",
+      "utm_source",
+      "utm_term"
+    ],
+    "linkedin.com": [
+      "licu",
+      "lipi",
+      "midsig",
+      "midtoken",
+      "original_referer",
+      "originalreferer",
+      "refid",
+      "trackingid",
+      "trk",
+      "trkemail",
+      "trkinfo"
+    ],
+    "m.bilibili.com": [
+      "bbid",
+      "share_medium",
+      "share_plat",
+      "share_session_id",
+      "share_source",
+      "share_tag",
+      "timestamp",
+      "unique_k"
+    ],
+    "m.facebook.com": [
+      "__cft__",
+      "__tn__",
+      "acontext",
+      "fb_action_ids",
+      "fb_action_types",
+      "fb_ref",
+      "fb_source",
+      "fbc",
+      "fbp",
+      "notif_id",
+      "notif_t",
+      "paipv",
+      "refsrc"
+    ],
+    "m.vk.com": [
+      "from",
+      "ref",
+      "ref_source",
+      "track_code"
+    ],
+    "m.weibo.cn": [
+      "featurecode",
+      "from",
+      "lfid",
+      "luicode",
+      "refer_flag",
+      "sourcetype",
+      "uicode",
+      "wm"
+    ],
+    "mail.ru": [
+      "from",
+      "mt_click_id",
+      "utm_campaign",
+      "utm_medium",
+      "utm_source"
+    ],
+    "marca.com": [
+      "intcmp",
+      "utm_campaign",
+      "utm_medium",
+      "utm_source"
+    ],
+    "mastodon.social": [
+      "utm_campaign",
+      "utm_medium",
+      "utm_source"
+    ],
+    "mojapp.in": [
+      "referrer",
+      "share_id",
+      "utm_campaign",
+      "utm_medium",
+      "utm_source"
+    ],
+    "mp.weixin.qq.com": [
+      "from",
+      "isappinstalled",
+      "scene"
+    ],
+    "my.mail.ru": [
+      "from",
+      "mt_click_id",
+      "utm_campaign",
+      "utm_medium",
+      "utm_source"
+    ],
+    "naver.com": [
+      "acr",
+      "fbm",
+      "from",
+      "sm",
+      "where"
+    ],
+    "news.naver.com": [
+      "cds",
+      "ntype",
+      "sid"
+    ],
+    "news.yahoo.co.jp": [
+      "fr",
+      "sc_e",
+      "source"
+    ],
+    "nico.ms": [
+      "from",
+      "ref",
+      "track"
+    ],
+    "nicovideo.jp": [
+      "from",
+      "ref",
+      "track"
+    ],
+    "ok.ru": [
+      "st._aid",
+      "st._fid",
+      "st._hash",
+      "st._ref",
+      "st.cmd"
+    ],
+    "orange.fr": [
+      "pid",
+      "utm_campaign",
+      "utm_medium",
+      "utm_source"
+    ],
+    "qq.com": [
+      "adtag",
+      "from",
+      "share_source"
+    ],
+    "rakuten.co.jp": [
+      "iasid",
+      "icm_acid",
+      "icm_agid",
+      "icm_cid",
+      "scid",
+      "sclid"
+    ],
+    "reddit.com": [
+      "correlation_id",
+      "entry_point"
+    ],
+    "repubblica.it": [
+      "ref",
+      "utm_campaign",
+      "utm_medium",
+      "utm_source"
+    ],
+    "sharechat.com": [
+      "referrer",
+      "share_id",
+      "utm_campaign",
+      "utm_medium",
+      "utm_source"
+    ],
+    "shopee.co.id": [
+      "sp_atk",
+      "utm_campaign",
+      "utm_medium",
+      "utm_source",
+      "xptdk"
+    ],
+    "snapchat.com": [
+      "locale",
+      "sid"
+    ],
+    "spotify.com": [
+      "context",
+      "go",
+      "si"
+    ],
+    "story.kakao.com": [
+      "from",
+      "kakao_from",
+      "kakao_link_id"
+    ],
+    "t-online.de": [
+      "utm_campaign",
+      "utm_content",
+      "utm_medium",
+      "utm_source",
+      "utm_term",
+      "wt_mc"
+    ],
+    "t.me": [
+      "tg_rhash"
+    ],
+    "telegram.org": [
+      "tg_rhash"
+    ],
+    "terra.com.br": [
+      "utm_campaign",
+      "utm_content",
+      "utm_medium",
+      "utm_source"
+    ],
+    "threads.com": [
+      "xmt"
+    ],
+    "threads.net": [
+      "igsh",
+      "igshid",
+      "igsi",
+      "mibextid",
+      "xmt"
+    ],
+    "tieba.baidu.com": [
+      "fr",
+      "see_lz",
+      "share"
+    ],
+    "tiktok.com": [
+      "_d",
+      "_t",
+      "enter_from",
+      "is_copy_url",
+      "is_from_webapp",
+      "preview_pb",
+      "refer",
+      "referer_url",
+      "sender_device",
+      "sender_web_id",
+      "share_app_id",
+      "share_author_id",
+      "share_item_id",
+      "share_link_id",
+      "social_share_type",
+      "tiktokid",
+      "tt_from",
+      "u_code",
+      "ugbiz_name",
+      "user_id"
+    ],
+    "timesofindia.indiatimes.com": [
+      "from",
+      "utm_campaign",
+      "utm_medium",
+      "utm_source"
+    ],
+    "tistory.com": [
+      "category",
+      "from"
+    ],
+    "tokopedia.com": [
+      "utm_campaign",
+      "utm_content",
+      "utm_medium",
+      "utm_source",
+      "whid"
+    ],
+    "tribunnews.com": [
+      "utm_campaign",
+      "utm_content",
+      "utm_medium",
+      "utm_source"
+    ],
+    "twitter.com": [
+      "ref_src",
+      "ref_url",
+      "s",
+      "t"
+    ],
+    "uol.com.br": [
+      "cmpid",
+      "utm_campaign",
+      "utm_medium",
+      "utm_source"
+    ],
+    "vk.com": [
+      "from",
+      "ref",
+      "ref_source",
+      "track_code"
+    ],
+    "web.de": [
+      "mc",
+      "utm_campaign",
+      "utm_medium",
+      "utm_source"
+    ],
+    "weibo.com": [
+      "featurecode",
+      "from",
+      "lfid",
+      "luicode",
+      "refer_flag",
+      "sourcetype",
+      "uicode",
+      "wm"
+    ],
+    "weixin.qq.com": [
+      "from",
+      "isappinstalled",
+      "scene"
+    ],
+    "x.com": [
+      "ref_src",
+      "ref_url",
+      "s",
+      "t"
+    ],
+    "xhslink.com": [
+      "apptime",
+      "appuid",
+      "share_from_user_hidden",
+      "xhsshare"
+    ],
+    "xiaohongshu.com": [
+      "apptime",
+      "appuid",
+      "share_from_user_hidden",
+      "type",
+      "xhsshare"
+    ],
+    "xing.com": [
+      "sc_o",
+      "sc_p",
+      "sc_src",
+      "sc_uid"
+    ],
+    "yahoo.co.jp": [
+      "ei",
+      "fr",
+      "sc_e"
+    ],
+    "yandex.ru": [
+      "_openstat",
+      "from",
+      "utm_referrer",
+      "yclid"
+    ],
+    "youtu.be": [
+      "app",
+      "is",
+      "pp",
+      "si"
+    ],
+    "youtube.com": [
+      "app",
+      "embeds_referring_euri",
+      "embeds_referring_origin",
+      "is",
+      "pp"
+    ],
+    "zhihu.com": [
+      "from",
+      "utm_campaign",
+      "utm_content",
+      "utm_id",
+      "utm_medium",
+      "utm_source",
+      "utm_term"
+    ]
+  }
+}
