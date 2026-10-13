@@ -17,6 +17,18 @@ which campaign or person shared it, or which service handled it before it
 reached its destination. They frequently remain attached as the link is copied
 between people, devices, and platforms.
 
+Examples:
+```
+https://www.instagram.com/reel/DeM-xDCA2W5/?utm_source=ig_web_copy_link&mdxt=MzRlODBiNWFlZA==&srtk=MzRlODBiNWFlZA==
+https://www.instagram.com/instagram?rpxt=ZDNlZDc0MzIxNw==
+https://www.example.com/landing-page?utm_source=facebook&utm_medium=social&utm_campaign=summer_sale&utm_content=ad_image_1&fbclid=1234567890
+https://www.jonloomer.com/facebook-ads-optimization-problems/?utm_source=Facebook&utm_medium=Facebook_Right_Column&utm_campaign=Blog_Post_Promotion_-_Conversions&utm_content=Optimization_Problems
+https://example.com/page?fbclid=1234567890
+https://www.example.com/?utm_campaign=blackfridaypromo
+https://www.tiktok.com/@username/video/1234567890123456789
+https://www.snapchat.com/p/41cac938-60d7-46f6-af06-814141b1b126/63129440110592
+```
+
 This repository grew out of practical work to clean shared links before passing
 them on. The rules were separated from a single private codebase so they could
 be inspected, questioned, improved, and reused by anyone building a
