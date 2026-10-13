@@ -9,6 +9,24 @@ no executable code, redirects, regular expressions, or URL rewriting rules.
 Consumers decide how to present, download, validate, cache, and apply this
 data.
 
+## About
+
+Links shared by websites, apps, social networks, and advertising systems often
+carry extra query parameters. Those parameters can reveal how a link was found,
+which campaign or person shared it, or which service handled it before it
+reached its destination. They frequently remain attached as the link is copied
+between people, devices, and platforms.
+
+This repository grew out of practical work to clean shared links before passing
+them on. The rules were separated from a single private codebase so they could
+be inspected, questioned, improved, and reused by anyone building a
+privacy-respecting URL cleaner.
+
+Its goal is modest: remove well-understood tracking and sharing context while
+preserving the link's destination and useful information. It does not bypass
+access controls, change website content, or rewrite URLs beyond the configured
+query parameters.
+
 ## Who it is for
 
 This repository is useful to browser extensions, mobile apps, desktop tools,
