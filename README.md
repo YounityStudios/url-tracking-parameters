@@ -86,6 +86,8 @@ for (const [name] of [...url.searchParams]) {
 console.log(url.toString());
 // https://example.com/article?id=42
 ```
+**Input:** https://example.com/article?id=42&utm_source=newsletter  
+**Output:** https://example.com/article?id=42  
 
 Production consumers should also validate the schema and use a reviewed,
 immutable release rather than a development branch.
